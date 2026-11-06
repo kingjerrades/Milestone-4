@@ -1,0 +1,15 @@
+source_id,file,url,title,publisher,doc_type,scheme,as_of
+S01,raw/kim_large_cap.pdf,https://assets-netstorage.growwmf.in/compliance_docs/Downloads/KIM/Equity%20Funds/KIM_Groww%20Largecap%20Fund.pdf,KIM - Groww Large Cap Fund,Groww Mutual Fund,KIM,large_cap,2026-10-30
+S02,raw/kim_elss.pdf,https://assets-netstorage.growwmf.in/compliance_docs/Downloads/KIM/Equity%20Funds/KIM_Groww%20ELSS%20Tax%20Saver%20Fund.pdf,KIM - Groww ELSS Tax Saver Fund,Groww Mutual Fund,KIM,elss,2026-10-30
+S03,raw/kim_multicap.pdf,https://assets-netstorage.growwmf.in/compliance_docs/Downloads/KIM/Equity%20Funds/KIM%20-%20Groww%20Multicap%20Fund.pdf,KIM - Groww Multicap Fund,Groww Mutual Fund,KIM,multicap,2026-10-30
+S04,raw/kim_liquid.pdf,https://assets-netstorage.growwmf.in/compliance_docs/Downloads/KIM/Debt%20Funds/KIM_Groww%20Liquid%20Fund.pdf,KIM - Groww Liquid Fund,Groww Mutual Fund,KIM,liquid,2026-10-30
+S05,raw/sid_large_cap.pdf,https://assets-netstorage.growwmf.in/compliance_docs/Downloads/SID/Equity%20Funds/Groww%20Large%20Cap%20Fund.pdf,SID - Groww Large Cap Fund,Groww Mutual Fund,SID,large_cap,2026-10-30
+S06,raw/sid_elss.pdf,https://assets-netstorage.growwmf.in/compliance_docs/Downloads/SID/Equity%20Funds/Groww%20ELSS%20Tax%20Saver%20Fundx.pdf,SID - Groww ELSS Tax Saver Fund,Groww Mutual Fund,SID,elss,2026-10-30
+S07,raw/sid_multicap.pdf,https://assets-netstorage.growwmf.in/compliance_docs/Downloads/SID/Equity%20Funds/Groww%20Multicap%20Fund.pdf,SID - Groww Multicap Fund,Groww Mutual Fund,SID,multicap,2026-10-30
+S08,raw/sid_liquid.pdf,https://assets-netstorage.growwmf.in/compliance_docs/Downloads/SID/Debt%20Funds/Groww%20Liquid%20Fund.pdf,SID - Groww Liquid Fund,Groww Mutual Fund,SID,liquid,2026-10-30
+S09,raw/factsheet_2026_09.pdf,https://assets-netstorage.growwmf.in/compliance_docs/Downloads/Fact%20Sheet/2026%20-%202027/Monthly%20Factsheet%20Sept%202026.pdf,Groww MF Monthly Factsheet - September 2026,Groww Mutual Fund,Factsheet,all,2026-09-30
+S10,raw/riskometer_fy2026_27.xlsx,https://www.growwmf.in/downloads/riskometer,Riskometer disclosures FY 2026-27,Groww Mutual Fund,Riskometer,all,2026-09-30
+S14,raw/web/growwmf_faq.txt,https://www.growwmf.in/,Groww Mutual Fund - FAQs,Groww Mutual Fund,FAQ,all,2026-11-06
+S20,raw/web/amfi_download_cas.txt,https://www.amfiindia.com/online-center/download-cas,Download CAS,AMFI,Statement guide,all,2026-11-06
+S23,raw/web/kfintech_capital_gains.txt,https://mfs.kfintech.com/investor/General/CapitalGainsLossAccountStatement,Capital Gain / Loss Statement,KFintech (Groww MF registrar),Statement guide,all,2026-11-06
+S12,raw/web/amfi_ter.txt,https://www.amfiindia.com/ter-of-mf-schemes,TER of MF schemes,AMFI,Education,all,2026-11-07

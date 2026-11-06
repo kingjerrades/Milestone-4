@@ -1,0 +1,9 @@
+URL: https://mfs.kfintech.com/investor/General/CapitalGainsLossAccountStatement
+TITLE: Capital Gain / Loss Statement | KFintech MFS Investor Portal
+CAPTURED: 2026-11-06
+NOTE: KFintech is the Registrar & Transfer Agent (RTA) for Groww Mutual Fund; AMFI's Download CAS page links to KFintech.
+---
+Capital Gain / Loss Statement (KFintech investor portal)
+To get a capital gains statement for Groww Mutual Fund investments, an investor uses KFintech's Capital Gain / Loss Statement page.
+The form asks the investor to choose the period (Current FY, Previous FY, 2nd Last FY or 3rd Last FY), enter their registered email and PAN, choose the mutual fund (Groww Mutual Fund is listed, or All Funds), choose the statement format (PDF or Excel), and set a password for the file.
+The delivery option is "Email a download link": the statement link is sent to the investor's registered email address.

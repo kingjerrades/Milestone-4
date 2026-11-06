@@ -1,0 +1,23 @@
+id,url,title,publisher,doc_type,scheme,answers_questions_about,format,status
+S01,https://assets-netstorage.growwmf.in/compliance_docs/Downloads/KIM/Equity%20Funds/KIM_Groww%20Largecap%20Fund.pdf,KIM - Groww Large Cap Fund,Groww MF,KIM,Groww Large Cap Fund,"min SIP, min lumpsum, exit load, benchmark, riskometer",PDF,verified
+S02,https://assets-netstorage.growwmf.in/compliance_docs/Downloads/KIM/Equity%20Funds/KIM_Groww%20ELSS%20Tax%20Saver%20Fund.pdf,KIM - Groww ELSS Tax Saver Fund,Groww MF,KIM,Groww ELSS Tax Saver Fund,"lock-in, 80C, min SIP, exit load, benchmark, riskometer",PDF,verified
+S03,https://assets-netstorage.growwmf.in/compliance_docs/Downloads/KIM/Equity%20Funds/KIM%20-%20Groww%20Multicap%20Fund.pdf,KIM - Groww Multicap Fund,Groww MF,KIM,Groww Multicap Fund,"min SIP, min lumpsum, exit load, benchmark, riskometer",PDF,verified
+S04,https://assets-netstorage.growwmf.in/compliance_docs/Downloads/KIM/Debt%20Funds/KIM_Groww%20Liquid%20Fund.pdf,KIM - Groww Liquid Fund,Groww MF,KIM,Groww Liquid Fund,"min investment, exit load, benchmark, riskometer",PDF,verified
+S05,https://assets-netstorage.growwmf.in/compliance_docs/Downloads/SID/Equity%20Funds/Groww%20Large%20Cap%20Fund.pdf,SID - Groww Large Cap Fund,Groww MF,SID,Groww Large Cap Fund,"full exit load rules, benchmark, plans and options",PDF,verified
+S06,https://assets-netstorage.growwmf.in/compliance_docs/Downloads/SID/Equity%20Funds/Groww%20ELSS%20Tax%20Saver%20Fundx.pdf,SID - Groww ELSS Tax Saver Fund,Groww MF,SID,Groww ELSS Tax Saver Fund,"3-year lock-in rules, 80C, benchmark",PDF,verified
+S07,https://assets-netstorage.growwmf.in/compliance_docs/Downloads/SID/Equity%20Funds/Groww%20Multicap%20Fund.pdf,SID - Groww Multicap Fund,Groww MF,SID,Groww Multicap Fund,"full exit load rules, benchmark, plans and options",PDF,verified
+S08,https://assets-netstorage.growwmf.in/compliance_docs/Downloads/SID/Debt%20Funds/Groww%20Liquid%20Fund.pdf,SID - Groww Liquid Fund,Groww MF,SID,Groww Liquid Fund,"graded exit load, benchmark, instant redemption",PDF,verified
+S09,https://assets-netstorage.growwmf.in/compliance_docs/Downloads/Fact%20Sheet/2026%20-%202027/Monthly%20Factsheet%20Sept%202026.pdf,Monthly Factsheet - September 2026,Groww MF,Factsheet,All,"current expense ratio, benchmark, riskometer, fund manager",PDF,verified
+S10,https://assets-netstorage.growwmf.in/compliance_docs/Downloads/Riskometer/Riskometer%20-%202026%20-%202027.xlsx,Riskometer data FY 2026-27,Groww MF,Riskometer data,All,current riskometer level per scheme,XLSX,verified
+S11,https://www.growwmf.in/downloads/expense-ratio,Expense ratio (TER) disclosures,Groww MF,TER page,All,"expense ratio, TER change notices",HTML,found
+S12,https://www.amfiindia.com/ter-of-mf-schemes,TER of MF schemes,AMFI,TER page,All,expense ratio lookup for any scheme,HTML,found
+S13,https://www.growwmf.in/downloads/riskometer,Riskometer disclosures index,Groww MF,Riskometer page,All,citation link for riskometer answers,HTML,found
+S14,https://www.growwmf.in/,Groww MF homepage and FAQs,Groww MF,FAQ,All,"what Groww MF is, how to invest, Groww vs Groww MF",HTML,found
+S15,https://cms-resources.growwmf.in/uploads/Basics_of_Mutual_Fund_49ab4e2810.pdf,Basics of Mutual Funds,Groww MF,Education,All,"definitions: NAV, SIP, expense ratio, exit load",PDF,found
+S16,https://www.growwmf.in/investor/investor-education,Investor Education,Groww MF,Education,All,refusal link; basics,HTML,found
+S17,https://www.growwmf.in/downloads/scheme-performance,Scheme performance disclosures,Groww MF,Performance page,All,refusal link for return/performance questions,HTML,found
+S18,https://www.amfiindia.com/otherdata/fund-performance,Fund performance,AMFI,Performance page,All,refusal link for return/performance questions,HTML,found
+S20,https://www.amfiindia.com/online-center/download-cas,Download CAS,AMFI,Statement guide,All,"how to download account statement (links to CAMS, KFintech)",HTML,found
+S21,https://investor.sebi.gov.in/,SEBI Investor Website,SEBI,Education,All,refusal link for advice questions,HTML,found
+S22,https://www.sebi.gov.in/sebi_data/docfiles/20616_t.html,SEBI Investor Education Programme - Mutual Funds,SEBI,Education,All,"MF basics Q&A, investor rights",HTML,found
+S23,https://mfs.kfintech.com/investor/General/CapitalGainsLossAccountStatement,Capital Gain / Loss Statement,KFintech (Groww MF registrar),Statement guide,All,how to download capital-gains statement (link only; assistant never collects PAN),HTML,"found (registrar, linked from AMFI)"

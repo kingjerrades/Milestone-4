@@ -1,0 +1,9 @@
+URL: https://www.amfiindia.com/ter-of-mf-schemes
+TITLE: TER of MF Schemes | AMFI
+CAPTURED: 2026-11-07
+---
+Total Expense Ratio (TER) of Mutual Fund Schemes: what the expense ratio disclosure includes.
+Base Expense Ratio (BER) as per Regulation 66(7) of SEBI (Mutual Funds) Regulations, 2026. Brokerage Cost as per Regulation 66(9) of SEBI (Mutual Funds) Regulations, 2026. This represents annualized, cumulative daily average brokerage cost incurred on trades executed during the reference period. The same shall be reset monthly and is intended to provide an indicative measure of brokerage cost.
+Transaction cost incurred for the purpose of execution of trade as referred under Regulation 66(10) of SEBI (Mutual Funds) Regulations, 2026. This represents annualized, cumulative daily average transaction cost incurred on trades executed during the reference period. The same shall be reset monthly and is intended to provide an indicative measure of transaction cost.
+Statutory levies (including GST): This has two parts: GST on the Base TER; and Statutory charges such as STT, GST on brokerage and stamp duty incurred for trade execution. This represents annualized, cumulative daily average statutory cost incurred during the reference period.
+Percentages mentioned above are annualized. Base Expense Ratio of direct plan shall have a lower expense ratio excluding distribution expenses, commission, etc., and no commission shall be paid from such plans.
