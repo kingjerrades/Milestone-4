@@ -83,6 +83,8 @@ with st.expander("What this assistant covers"):
     st.markdown("**Sources:** official Groww Mutual Fund documents (scheme summaries, "
                 "scheme rulebooks, monthly factsheet, riskometer disclosures), AMFI and SEBI pages.")
     st.caption(FULL)
+    mode = "keyword + meaning-based (hybrid)" if load_index().mode == "hybrid" else "keyword"
+    st.caption(f"Search mode: {mode}")
 
 # ---------------------------------------------------------------- chat state
 if "history" not in st.session_state:
