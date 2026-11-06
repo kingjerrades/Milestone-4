@@ -49,7 +49,7 @@ question
    │
    ▼
 3. Retrieval             the scheme's official key-facts record first (factsheet / KIM / riskometer);
-   src/search.py         keyword search (BM25) + meaning-based search (embeddings) when available
+   src/search.py         then keyword search (BM25); optional meaning-based search (embeddings)
    src/answer.py
    │
    ▼
@@ -84,9 +84,10 @@ echo "GEMINI_API_KEY=your-key-here" > .env      # .env is git-ignored
 streamlit run app.py
 ```
 
-The search index (`data/processed/chunks.jsonl`) is committed, so the app runs without re-processing the documents. To rebuild it from the official files in `data/raw/`:
+The search index (`data/processed/chunks.jsonl`) is committed, so the app runs without re-processing the documents. To rebuild it from the official files in `data/raw/`, install the extra tools first:
 
 ```bash
+pip install -r requirements-dev.txt
 python src/ingest.py
 ```
 
@@ -108,9 +109,9 @@ python tests/make_sample_qa.py     # rebuilds sample_qa.md from the evaluation r
    ```toml
    GEMINI_API_KEY = "your-key-here"
    ```
-4. **Deploy.** The first start downloads the embedding model (about a minute).
+4. **Deploy.** The app uses about 120 MB of memory in its default keyword-search mode.
 
-Optional settings (environment variables or secrets): `MF_ANSWER_MODEL`, `MF_CLASSIFIER_MODEL` (default `gemini-flash-lite-latest`), `MF_BACKUP_MODELS`, `MF_EMBEDDINGS=0` (keyword search only), `MF_EMBED_TIMEOUT` (default 60 s).
+Optional settings (environment variables or secrets): `MF_ANSWER_MODEL`, `MF_CLASSIFIER_MODEL` (default `gemini-flash-lite-latest`), `MF_BACKUP_MODELS`, `MF_EMBEDDINGS=1` (adds meaning-based search; needs `requirements-dev.txt` and more memory than the free tier reliably gives), `MF_EMBED_TIMEOUT` (default 60 s).
 
 ## Evaluation
 
@@ -133,6 +134,7 @@ The first run scored **29/37**; fixes were made using this same set, so 29/37 is
 - **Source typo.** The factsheet describes the ELSS fund as investing in "large equity"; the assistant answers only the fact asked, so this isn't repeated.
 - **"Base" expense ratio.** Under the SEBI (Mutual Funds) Regulations, 2026, published figures are the base expense ratio; brokerage, transaction costs and GST are disclosed separately (AMFI). Answers say "base expense ratio".
 - **Advice detection isn't perfect.** Rules alone caught about half of unusually phrased advice questions; the Gemini double-check caught 10/10 in testing. If Gemini is unreachable, the rules' decision stands.
+- **Keyword search only (by default).** Meaning-based search is built but switched off: the evaluation was run in keyword mode, and turning all document chunks into vectors at startup exceeded Streamlit Cloud's free-tier memory (the first deployment was stopped for this). Unusual wording can therefore miss a passage; the topic hints and key-facts records offset most of this.
 - **Free-tier limits.** Each answer uses two Gemini calls; heavy use can hit Google's per-minute limit (retries and backup models soften this). If the service is unavailable, the app says so honestly.
 - **Web pages captured by hand.** Three web pages (AMFI Download CAS, AMFI TER explanation, KFintech capital-gains page) and the Groww MF FAQ were captured as text on 6–7 Nov 2026, because they render with JavaScript.
 - **Capital-gains statement** comes from KFintech (Groww MF's registrar, linked from AMFI). The assistant only shows the link; it never asks for or accepts the PAN that page requires.
@@ -150,7 +152,7 @@ The first run scored **29/37**; fixes were made using this same set, so 29/37 is
 app.py                 Streamlit UI
 src/router.py          answer / refuse / block decisions (rules + AI double-check)
 src/answer.py          retrieval, prompt, checks, citation
-src/search.py          BM25 + embedding search
+src/search.py          BM25 keyword search (+ optional embeddings)
 src/ingest.py          PDFs / spreadsheet / web text -> tagged chunks
 src/llm.py             minimal Gemini client (retries + backup models)
 src/schemes.py         the 4 schemes and their aliases

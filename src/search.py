@@ -1,8 +1,9 @@
 """Search over the ingested chunks.
 
-Keyword search (BM25) always runs. Meaning-based search (embeddings) is added
-when the embedding model can be loaded, e.g. on Streamlit Cloud; the two scores
-are blended. Chunks flagged as containing returns are never returned, because
+Keyword search (BM25) always runs. Meaning-based search (embeddings) is OFF by
+default: the evaluation was run in keyword mode, and embedding all chunks at
+startup can exceed Streamlit Cloud's free-tier memory. Turn it on with
+MF_EMBEDDINGS=1 (needs requirements-dev.txt); the two scores are then blended. Chunks flagged as containing returns are never returned, because
 the assistant must not state or compare performance.
 
     from search import Index
@@ -62,7 +63,7 @@ class Index:
 
     @classmethod
     def load(cls, path: Path = CHUNKS,
-             use_embeddings: bool = os.environ.get("MF_EMBEDDINGS", "1") == "1") -> "Index":
+             use_embeddings: bool = os.environ.get("MF_EMBEDDINGS", "0") == "1") -> "Index":
         with open(path, encoding="utf-8") as f:
             idx = cls([json.loads(line) for line in f])
         if use_embeddings:
