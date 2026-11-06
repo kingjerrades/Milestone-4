@@ -7,7 +7,9 @@ carries **one source link** and a "Last updated from sources" date. It gives **n
 
 > **Facts-only. No investment advice.**
 
-**Live app:** _link added after deployment_ · NextLeap PM Fellowship — Milestone 4
+**Live app:** [groww-mf-facts.streamlit.app](https://groww-mf-facts.streamlit.app/) · NextLeap PM Fellowship — Milestone 4
+
+_Free Streamlit apps sleep when unused: if you see "This app has gone to sleep", click the wake-up button and wait about a minute._
 
 ---
 
@@ -25,7 +27,7 @@ carries **one source link** and a "Last updated from sources" date. It gives **n
 
 | Deliverable | Where |
 |---|---|
-| Working prototype | Live app link above · run locally with the steps below |
+| Working prototype | [groww-mf-facts.streamlit.app](https://groww-mf-facts.streamlit.app/) · run locally with the steps below |
 | Source list (22 URLs) | [`sources.csv`](sources.csv) |
 | README (setup, scope, known limits) | this file |
 | Sample Q&A (10 queries with answers + links) | [`sample_qa.md`](sample_qa.md) |
